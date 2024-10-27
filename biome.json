@@ -22,6 +22,7 @@
 			"recommended": true,
 			"correctness": {
 				"noUnusedImports": "error",
+				"useImportExtensions": "off",
 				"all": true
 			}
 		}
