@@ -1,5 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import SigninTabContent from './tabs/signin';
+import SignupTabContent from './tabs/signup';
 
 export default function Page() {
 	return (
@@ -18,7 +19,9 @@ export default function Page() {
 					<TabsContent value="signin">
 						<SigninTabContent />
 					</TabsContent>
-					<TabsContent value="signup">a</TabsContent>
+					<TabsContent value="signup">
+						<SignupTabContent />
+					</TabsContent>
 				</Tabs>
 			</section>
 		</div>
